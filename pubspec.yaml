@@ -1,0 +1,86 @@
+name: testeliteflower
+description: A Flutter project about fetch an api.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.3
+  # Responsive
+  flutter_screenutil: ^5.0.0+2
+  # Get for state management
+  get: ^4.3.4
+  # Service locator
+  get_it: ^7.2.0
+  # Value equality
+  equatable: ^2.0.3
+  # Functional programming thingies
+  dartz: ^0.10.0-nullsafety.2
+  # Remote API
+  dio: ^4.0.0
+  connectivity_plus: ^1.0.6
+  # NoSQL Database
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  # Draw SVG
+  flutter_svg: ^0.22.0
+  # Apply a mask to Strings
+  easy_mask: ^2.0.1
+  # Shimmer effect
+  shimmer: ^2.0.0
+  # Create beautiful tags quickly and easily
+  flutter_tags: 1.0.0-nullsafety.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mockito: ^5.0.13
+  hive_generator: ^1.1.0
+  build_runner: ^2.1.0
+  flutter_native_splash: ^1.2.1
+  flutter_launcher_icons: ^0.9.1
+
+
+# Native Splash App
+flutter_native_splash:
+  color: "#2FDDD0"
+  image: assets/images/logo.png
+
+# Launcher Icon App
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/images/logo.png
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  # Custom Assets
+  assets:
+    - assets/images/
+
+  # Custom Fonts
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
