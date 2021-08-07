@@ -1,5 +1,8 @@
 # Test Elite Flower
 
+[![codecov](https://codecov.io/gh/criistian14/test-elite_flower/branch/master/graph/badge.svg?token=JEEO55XQI9)](https://codecov.io/gh/criistian14/test-elite_flower)
+[![Build](https://github.com/criistian14/test-elite_flower/actions/workflows/tests.yml/badge.svg)](https://github.com/criistian14/test-elite_flower/actions/workflows/tests.yml)
+
 Prueba para la empresa Elite Flower hecha en Flutter
 con [arquitectura limpia](https://www.youtube.com/playlist?list=PLB6lc7nQ1n4iYGE_khpXRdJkJEp9WOech).
 
